@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <div class="go-back">
+        <img src="back.svg" alt="Go Back">
+        <span>Go Back</span>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <img height="325px" src="login-cover.png" alt="Brain Illustration">
+            <h1>Train And Analyze Models Performance For Your<br> Next Project</h1>
+        </div>
+        <div class="right-section">
+            <div class="right-panel">
+                <h2>Register</h2>
+                <p>Already have an account? <a style="color: #008000" href="index2.html">Sign In</a></p>
+                <form>
+                    <div id="signUpMessage" class="messageDiv" style="display:none"></div>
+                    <div class="names">
+                        <div>
+                            <label for="firstname">Firstname</label>
+                            <input type="text" id="firstname" placeholder="Firstname" required>
+                        </div>
+                        <div>
+                            <label for="lastname">Lastname</label>
+                            <input type="text" id="lastname" placeholder="Lastname" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" placeholder="Email ID" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                    </div>
+
+                    <button id="signup" type="submit">Sign Up</button>
+                </form>
+                <div class="social-login">
+                    <button class="google"><img width="30px" src="google.png">Sign in with Google</button>
+                    <button class="github"><img width="30px" src="github.png">Sign in with Github</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-name">
+        <img src="logo.png" alt="Product Logo">
+    </div>
+</body>
+</html>

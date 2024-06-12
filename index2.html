@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="index2.css">
+    <script type="module" src="index2.js" defer></script>
+
+</head>
+<body>
+    <div class="go-back">
+        <img src="back.svg" alt="Go Back">
+        <span>Go Back</span>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <img height="325px" src="login-cover.png" alt="Brain Illustration">
+            <h1>Train And Analyze Models Performance For Your<br> Next Project</h1>
+        </div>
+        <div class="right-section">
+            <h2 style="color: #008000;">Login</h2>
+            <p1>Are you new user? <a style="color: #008000;" href="index.html">Signup</a></p>
+            <form>
+                <div id="signInMessage" class="messageDiv" style="display:none"></div>
+                <label for="email">Email ID</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class="demo">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember me</label>
+                    <span><a style="color: #008000;" href="reset.html">Forgot Password?</a></span>
+                </div>
+
+                <button type="submit">Sign In</button>
+            </form>
+            <div class="social-login">
+                <button type="button" class="google"><img width="30px" src="google.png">Sign in with Google</button>
+                <button type="button" class="github"><img width="30px" src="github.png">Sign in with Github</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-name">
+        <img src="logo.png" alt="Product Logo">
+    </div>
+</body>
+</html>

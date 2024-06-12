@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    display: flex;
+    height: 100vh;
+    background-color: #f8f8f8;
+    p{text-align: right;}
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.left-section {
+    width: 50%;
+    background-color: #e8f5e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.left-section img {
+    width: 100%;
+    max-width: 600px;
+}
+.left-section h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.right-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.right-section form {
+    display: flex;
+    flex-direction: column;
+}
+.right-section form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+.right-section form input[type="checkbox"] {
+    margin-bottom: 0;
+}
+.right-section form label {
+    text-align: top;
+    margin-bottom: 10px;
+}
+.right-section form button {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.right-section form button:hover {
+    background-color: #45a049;
+}
+.right-section .social-login {
+    display: flex;
+    justify-content: space-between;
+}
+.right-section .social-login button {
+    border-radius: 8px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.right-section .social-login .google {
+    border: 10px;
+    border-color: #333;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.right-section .social-login .github {
+    border: 10px;
+    border-color: #333;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.go-back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.go-back img {
+    width: 24px;
+    margin-right: 8px;
+}
+.product-name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.product-name img {
+    width: 200px;
+    margin-right: 8px;
+}
+.demo {
+    padding-bottom: 20px;
+}
+
+span {
+    float: right;
+}
+.right-section .social-login .google img {
+    margin-right: 10px;
+}
+.right-section .social-login .github img {
+    margin-right: 10px;
+}
+.messageDiv{
+    background-color:hsl(327,90%,28%);
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius: 5px;
+    font-size:1rem;
+    opacity:0;
+    animation:fadeOut 7s forwards;
+}
